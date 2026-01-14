@@ -454,7 +454,7 @@ else:
     ranking = eval(ranking_data)
     col_rank1, col_rank2 = st.columns(2)
     with col_rank1:
-        st.markdown("#### 🔥 Chaos Mode")
+        st.markdown("#### 🔥 Challenge mode")
         if len(ranking["chaos_mode"]) == 0:
             st.info("No scores submitted yet in Chaos Mode.")
         else:
